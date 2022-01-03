@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Tienda</title>
+
+        <!--Carpetas y archivos locales porque algunos estilos no los tiene bootstrap online-->
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Nucleo estilo (incluye Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+      <!------------------------------------------------------------------------------------------>
+
+        <style typ="text/css">
+          #plantilla{margin-left: -20px;}
+          h3{ text-align: center;}
+          p{text-align: center;}
+          a{
+            color: inherit;
+            text-decoration: none;
+          }
+          h6{text-align: center;}
+
+          img{
+            text-align: center;
+          }
+          .col-sm-4{
+            text-align: center;
+          }
+        </style>
+
+    </head>
+      <body>
+
+        <div class="d-flex" id="wrapper">
+            <!-- Barra lateral-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+              <div class="sidebar-heading border-bottom bg-light">Menu desplegable</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#raqueta">Raquetas</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#muñequera">Muñequera</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#malla">Mallas</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#falda">Faldas</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#polera">Poleras</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#sudadera">Anti transpirable</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#zapatilla">Zapatilla</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.html">Volver a menu</a>
+                </div>
+              </div>
+              <!-- Envoltura de pagina-->
+              <div id="page-content-wrapper">
+                  <!-- Navegacion superior-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                  <div class="container-fluid">
+                      <button class="btn btn-primary" id="sidebarToggle">Cerrar menu lateral</button>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                              <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                              
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Enlaces adicionales</a>
+                                  <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" link href="https://www.tiendadetenis.cl/" target="blank">Tiendas amigas</a>
+                                      <a class="dropdown-item" link href="http://www.duomoediciones.com/cont/associatedContent/docsPot/Agassi_Andre_OPEN_Primeros_Capitulos.pdf" target="blank">Literatura</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" link href="https://www.facebook.com/Club-Escuela-de-Tenis-Arica-279785018703759/" target="blank">Cursos de tenis</a>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                </nav>
+                <!-- Contenido de pagina-->
+          <div class="container-fluid">
+            <div id="plantilla">
+
+              <div class="container-fluid p-5 bg-primary text-white text-center">
+                  <h1>Tu tienda deportenista</h1>
+                  <p>De todo un poco para el tenis</p> 
+              </div>
+                  
+                <div class="container mt-5">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <h3 id="raqueta">Mini Aspiradora USB</h3>
+                      <img src="miniaspiradora.jpg" ,width="40%", height="40%">
+                      <p>Ideal para limpiar entre las teclas, no necesita pilas, se conecta al usb de su computador </p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">8000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="pelota">Router Gigabit MI 4A </h3>
+                      <img src="mi4a.jpg" ,width="40%", height="40%">
+                      <p>Repetidor de alta velocidad para donde su internet no llegue</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">40000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="malla">Cable de red</h3>
+                      <img src="cableDeRed.jpg" ,width="40%", height="40%">        
+                      <p>5, 10, 15, 20 metros para jugar online, ver netflix, youtube 4k</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">Consultar medidas</a> </button>
+                      </div>
+                    </div>
+                  
+                    <div class="col-sm-4">
+                      <h3>Bluetooth USB</h3>
+                      <img src="bluetoothUsb.jpeg" ,width="40%", height="40%">
+                      <p>Para conectar dispositivos electronicos a tu computadora</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="polera">Cable de red 100% cobre</h3>
+                      <img src="cableCobre.jpg" ,width="40%", height="40%">
+                      <p>Ideal para streaming en twitch, conexiones de mas de 30 metros.</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">Consultar medidas</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="zapatilla">Memoria Ram Ddr2 2GB Dimm</h3>
+                      <img src="ddr2.jpg" ,width="40%", height="40%">     
+                      <p>Renueva o amplia la memoria de tu viejo computador</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">12000 pesos</a> </button>
+                      </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                      <h3 id="Pila">Pila Cr2032</h3>
+                      <img src="cr2032.jpg" ,width="40%", height="40%">
+                      <p>Pila para computadores, control remoto, camaras, etc</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">2000 pesos</a> </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <h3 id="falda">Disipador calor memoria M2</h3>
+                      <img src="disipador m2.jpg" ,width="40%", height="40%">        
+                      <p>Cabe dentro de computador portatil, incluye thermal pad, bandas elasticas, para memorias formato 2280 </p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Extractor calor notebook</h3>
+                      <img src="extractor3.jpg" ,width="40%", height="40%">
+                      <p>Reduce la temperatura de tu notebook considerablemente</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">15000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Capturadora video 1080P 60FPS</h3>
+                      <img src="hdmi 60fps.jpg" ,width="40%", height="40%">
+                      <p>Para hacer streamings, capturar videojuegos, celular</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">25000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Termostato</h3>
+                      <img src="termistato.jpg" ,width="40%", height="40%">
+                      <p>Para encubadora, pequeños invernaderos, totalmente programable</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Tijera electricista</h3>
+                      <img src="tijera.jpg" ,width="40%", height="40%">
+                      <p>Corta cables electricos de 2.5 y otros</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Adaptador USB a LAN</h3>
+                      <img src="usbLan.jpg" ,width="40%", height="40%">
+                      <p>Para computadores, consola de videojuegos etc.</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">8000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Adaptador VGA a HDMI</h3>
+                      <img src="vgahdmi.jpeg" ,width="40%", height="40%">
+                      <p>Conecte su viejo equipo a pantallas modernas</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">15000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Fuente de poder EVGA 600w 80 plus</h3>
+                      <img src="evgaW2.jpg" ,width="40%", height="40%">
+                      <p>Poderosa fuente de poder silenciosa sellada original EVGA</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">60000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Cable splitter para fuente de poder</h3>
+                      <img src="cablePulpo.jpg" ,width="40%", height="40%">
+                      <p>Ideal para camaras se seguridad, sistemas de multiconexion.</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">Consultar al Whatsapp</a>button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Tarjeta de video Nvidia 730 </h3>
+                      <img src="gt730.jpg" ,width="40%", height="40%">
+                      <p>Silenciosa ideal para juegos E-sports</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">75000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Adaptador HDMI a VGA</h3>
+                      <img src="hdmiVga.jpg" ,width="40%", height="40%">
+                      <p>Conecte sus equipos salida HDMI a monitor viejo VGA</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Pasta Termica 20grs</h3>
+                      <img src="pastaTermica.jpg" ,width="40%", height="40%">
+                      <p>Multiples aplicaciones para pc, consolas, camaras, etc.</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Memoria Ram Ddr2 2GB So-Dimm</h3>
+                      <img src="ramSodimm.jpg" ,width="40%", height="40%">
+                      <p>Renueva o amplia la memoria de tu vieja pc portatil</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">15000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Adaptador C a USB</h3>
+                      <img src="tipoCaUSB.jpg" ,width="40%", height="40%">
+                      <p>Conecte su pendrive a su celular y respalde sus datos</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">3000 pesos</a></button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Adaptador Wifi USB</h3>
+                      <img src="wifi usb.jpg" ,width="40%", height="40%">
+                      <p>Conecte su computadora a internet sin cables</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">13000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Cinta kinesiologica Tape</h3>
+                      <img src="cintaTape.jpg" ,width="40%", height="40%">
+                      <p>Para tratamientos de recuperacion muscular</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Kit Camaras seguridad Hikvision</h3>
+                      <img src="hikvision.jpg" ,width="40%", height="40%">
+                      <p>Incluye 4 camaras, memoria 2 meses, llegar e instalar</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">200000 pesos</a>> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Cofre case para disco duro</h3>
+                      <img src="cofreHdd.jpg" ,width="40%", height="40%">
+                      <p>Convierta su disco duro a portatil transportable</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">12000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Detector de voltaje sin contacto</h3>
+                      <img src="detectorVoltaje.jpg" ,width="40%", height="40%">
+                      <p>Permite detectar corriente electrica sin tocar nada</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">8000 pesos</a></button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Adaptador tarjeta grafica para notebook</h3>
+                      <img src="graficaNote.jpg" ,width="40%", height="40%">
+                      <p>Podras jugar juegos mas pesados en tu vieja portatil</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">20000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Microfono para camara de seguridad</h3>
+                      <img src="microfono.jpg" ,width="40%", height="40%">
+                      <p>Escuche sonido a traves de su camara de grabacion</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Microscopio USB</h3>
+                      <img src="microscopio.jpg" ,width="40%", height="40%">
+                      <p>Para uso de biologia o taller electronico</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">35000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Multimetro electronico</h3>
+                      <img src="multimetro.jpg" ,width="40%", height="40%">
+                      <p>Para trabajos de casa, vehiculos, etc</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">15000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Bluetooth para radio</h3>
+                      <img src="bluetoothRadio.jpg" ,width="40%", height="40%">
+                      <p>Convierte todo tipo de radio en bluetooth</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Splitter hdmi</h3>
+                      <img src="splitterHdmi.jpg" ,width="40%", height="40%">
+                      <p>Permite repetir imagen en 2 pantallas o monitores</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                      <h3 id="sudadera">Pendrive 32GB USB 3.0 </h3>
+                      <img src="pendrive.jpg" ,width="40%", height="40%">
+                      <p>Pendrive USB 3.0 de alta velocidad para almacenar datos.</p>
+                      <p></p>
+                      <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg"> <a target="_blank" href="https://api.whatsapp.com/send?phone=+56962502021">10000 pesos</a> </button>
+                      </div>
+                    </div>
+
+                  </div>
+              </div>
+            
+            </div>
+
+          </div>
+        </div>
+          </div>
+        
+
+        
+        <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Seccion: redes sociales -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Conectate a todas nuestra redes sociales:</span>
+      </div>
+      
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      
+    </section>
+    <!-- Redes sociales -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grilla fila-->
+        <div class="row mt-3">
+       <!-- Grilla columna -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Contenido -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Perfil de leyendas
+            </h6>
+            <p>
+              Aqui destacamos a las leyendas de la historia de este querido deporte nuestro como el tenis
+            </p>
+          </div>
+          
+  
+          <!-- Grilla columna -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Perfiles
+            </h6>
+            <p>
+              <a link href="https://www.atptour.com/es/media/mediaguide" target="blank" class="text-reset">Tenistas</a>
+            </p>
+            <p>
+              <a link href="https://www.marca.com/futbol/2020/12/31/5fec67cbca4741157f8b4633.html" target="blank" class="text-reset">Futbolistas</a>
+            </p>
+            <p>
+              <a link href="https://especiales.marca.com/100-deportistas-siglo/index.html" target="blank" class="text-reset">Atletas</a>
+            </p>
+            <p>
+              <a link href="https://mejores.com/deporte/los-mejores-ajedrecistas-de-la-historia" target="blank" class="text-reset">Ajedrecistas</a>
+            </p>
+          </div>
+          
+  
+          <!-- Grilla columna -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+            Enlaces Utiles
+            </h6>
+            <p>
+              <a link href="https://www.facebook.com/" target="blank" class="text-reset">Facebook</a>
+            </p>
+            <p>
+              <a link href="https://www.instagram.com/" target="blank" class="text-reset">Instagram</a>
+            </p>
+            <p>
+              <a link href="https://www.patreon.com/"  target="blank"class="text-reset">Patreon</a>
+            </p>
+            <p>
+              <a link href="https://github.com/" target="blank" class="text-reset">Github</a>
+            </p>
+          </div>
+          
+  
+          <!-- Grilla columna -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contacto
+            </h6>
+            <p><i class="fas fa-home me-3"></i> Arica, XV Region, Chile</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              oscar_7667@hotmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +569 6250 2021</p>
+            <p><i class="fas fa-print me-3"></i> +569 3333 4444</p>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+
+  
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Derechos propios:
+      <a class="text-reset fw-bold" href="#!">OscarAwardsdotcom</a>
+    </div>
+  
+  </footer>
+
+  <!-- Bootstrap nucleo JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core del tema JS-->
+  <script src="js/scripts.js"></script>
+
+      </body>
+</html>
